@@ -215,3 +215,9 @@ a {
 .tribe-member h2, .tribe-member p {
   margin: 0;
 }
+table {
+  display: table;
+  border-collapse: separate;
+  border-spacing: 2px;
+  border-color: gray;
+}

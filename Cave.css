@@ -26,11 +26,11 @@ a {
   overflow: hidden;
   position: fixed;
   top: 0;
-  left: 50%; /* Start centering */
-  transform: translateX(-50%); /* Fully centers it */
+  left: 50%;
+  transform: translateX(-50%);
   width: 80%;
   max-width: 1500px;
-  padding: 10px 20px; /* Fixed padding issue */
+  padding: 10px 20px;
   text-align: center;
   z-index: 1000;
   border-radius: 15px;
@@ -183,7 +183,7 @@ a {
 }
 .tribe-container {
   text-align: center;
-  background: url('./Images/CaveWall.png'); /* Stone texture */
+  background: url('./Images/CaveWall.png');
   padding: 20px;
   padding-top: 150px;
   border-radius: 20px;
@@ -192,7 +192,7 @@ a {
 }
 
 .tribe-member {
-  background-color: rgba(48, 19, 0, 0.8); /* Caveman brown */
+  background-color: rgba(48, 19, 0, 0.8);
   padding: 20px;
   margin: 15px auto;
   border-radius: 15px;
@@ -214,4 +214,44 @@ a {
 
 .tribe-member h2, .tribe-member p {
   margin: 0;
+}
+table {
+    width: 100%;
+    padding: 40px;
+    text-align: center;
+    background-color: #2f1200;
+    border-radius: 30px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+th {
+  border: 1px solid #8B4513;
+  text-align: left;
+  padding: 8px;
+  font-size: 20px;
+}
+td {
+  border: 1px solid #8B4513;
+  text-align: left;
+  padding: 8px;
+  font-size: 20px;
+}
+tr {
+  background-color: #2f1200;
+}
+.list {
+    width: 100%;
+    padding: 40px;
+    text-align: center;
+    background-image: url('./Images/CaveWall.png');
+    border-radius: 30px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+	font-size: 30px;
 }
